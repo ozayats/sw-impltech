@@ -1,0 +1,42 @@
+.comments-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+  &__input {
+    border: 1px solid goldenrod;
+    outline: none;
+    background-color: black;
+    color: goldenrod;
+    padding: 5px;
+    width: 45%;
+    border-radius: 5px;
+
+    &:hover {
+      border: 1px solid gold;
+    }
+
+    &:focus {
+      border: 1px solid rgb(181, 235, 110);
+      background-color: black;
+      color: goldenrod
+    }
+  }
+
+
+  &__btn {
+    border: 1px solid goldenrod;
+    outline: none;
+    background-color: black;
+    color: goldenrod;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+
+    &:hover {
+      color: gold;
+      border: 1px solid gold;
+    }
+  }
+}
